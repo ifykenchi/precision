@@ -8,8 +8,7 @@
     <title>Precision</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -80,18 +79,54 @@
         </aside>
 
         <div class="main p-3">
-            <div class="header d-flex justify-content-between">
+            <div class="header m-3 d-flex justify-content-between">
                 <div class="text-center">
                     <h1>Welcome!</h1>
                 </div>
-                <div class="d-flex justify-content-between">
-                    <div class="input-group mb-3">
+                <div class="d-flex justify-content-between w-50 gap-3">
+                    <div class="box">
                         <i class="bi bi-search"></i>
-                        <input type="text" class="form-control" placeholder="Username" aria-label="Username"
-                            aria-describedby="basic-addon1">
+                        <input type="text" placeholder="Search">
                     </div>
-                    <h3>John doe</h3>
+                    <span>
+                        <i class="bi bi-gear fs-3 header-icon"></i>
+                    </span>
+                    <span>
+                        <i class="bi bi-bell fs-3 header-icon"></i>
+                    </span>
+                    <div class="header-profile d-flex gap-2">
+                        <div class="blank-circle">
+                        </div>
+                        <h3>
+                            John doe
+                        </h3>
+                    </div>
                 </div>
+            </div>
+
+            <div class="row mt-5 mx-2">
+                <div class="col-md">
+                    <div class="card shadow-sm w-100 h-auto">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-semibold">Lorem</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card shadow-sm w-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-semibold">Lorem</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card shadow-sm w-100">
+                        <div class="card-body">
+                            <h5 class="card-title text-center fw-semibold">Lorem</h5>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
