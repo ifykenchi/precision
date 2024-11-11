@@ -105,28 +105,70 @@
             </div>
 
             <div class="row mt-5 mx-2">
-                <div class="col-md">
-                    <div class="card shadow-sm w-100 h-auto">
+                <div class="col-sm-4">
+                    <div class="card shadow-sm card-small">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-semibold">Lorem</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="card shadow-sm w-100">
+                <div class="col-sm-4">
+                    <div class="card shadow-sm card-small">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-semibold">Lorem</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-md">
-                    <div class="card shadow-sm w-100">
+                <div class="col-sm-4">
+                    <div class="card shadow-sm card-long">
                         <div class="card-body">
                             <h5 class="card-title text-center fw-semibold">Lorem</h5>
                         </div>
                     </div>
                 </div>
 
+            </div>
+
+            <div>
+                <h2>Dorem ipsum</h2>
+                <div>
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Ipsum</th>
+                                <th scope="col">Dorem</th>
+                                <th scope="col">Stock</th>
+                                <th scope="col">Sales</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ipsum</td>
+                                <td>Dorem</td>
+                                <td>Stock</td>
+                                <td>Sales</td>
+                            </tr>
+                            <tr>
+                                <td>Ipsum</td>
+                                <td>Dorem</td>
+                                <td>Stock</td>
+                                <td>Sales</td>
+                            </tr>
+                            <tr>
+                                <td>Ipsum</td>
+                                <td>Dorem</td>
+                                <td>Stock</td>
+                                <td>Sales</td>
+                            </tr>
+                            <tr>
+                                <td>Ipsum</td>
+                                <td>Dorem</td>
+                                <td>Stock</td>
+                                <td>Sales</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
     </div>
