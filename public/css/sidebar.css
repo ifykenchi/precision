@@ -115,7 +115,7 @@ a.sidebar-link:hover {
 }
 
 .sidebar-footer {
-    margin-bottom: 20vh;
+    margin-bottom: 100px;
 }
 
 .box {
@@ -157,5 +157,5 @@ a.sidebar-link:hover {
 }
 
 .card-long {
-    height: 65vh;
+    height: 70vh;
 }

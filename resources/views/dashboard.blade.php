@@ -22,100 +22,68 @@
 
 <body>
     <div class="wrapper">
-        <aside id="sidebar">
-            <div class="d-flex">
-                <button id="toggle-btn" type="button">
-                    <i class="bi bi-printer-fill"></i>
-                </button>
-                <div class="sidebar-logo">
-                    <a href="#">PRINTx</a>
-                </div>
-            </div>
-            <ul class="sidebar-nav">
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="bi bi-grid"></i>
-                        <span>Dashboard</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="bi bi-graph-up"></i>
-                        <span>Reports</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="bi bi-people-fill"></i>
-                        <span>Staff</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="bi bi-box-seam"></i>
-                        <span>Products</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="bi bi-bounding-box"></i>
-                        <span>Services</span>
-                    </a>
-                </li>
-                <li class="sidebar-item">
-                    <a href="#" class="sidebar-link">
-                        <i class="bi bi-journal-text"></i>
-                        <span>Transactions</span>
-                    </a>
-                </li>
-            </ul>
-
-            <div class="sidebar-footer">
-                <a href="#" class="sidebar-link">
-                    <i class="bi bi-box-arrow-right"></i>
-                    <span>Signout</span>
-                </a>
-            </div>
-        </aside>
+        <x-sidebar></x-sidebar>
 
         <div class="main p-3">
-            <div class="header m-3 d-flex justify-content-between">
-                <div class="text-center">
-                    <h1>Welcome!</h1>
-                </div>
-                <div class="d-flex justify-content-between w-50 gap-3">
-                    <div class="box">
-                        <i class="bi bi-search"></i>
-                        <input type="text" placeholder="Search">
-                    </div>
-                    <span>
-                        <i class="bi bi-gear fs-3 header-icon"></i>
-                    </span>
-                    <span>
-                        <i class="bi bi-bell fs-3 header-icon"></i>
-                    </span>
-                    <div class="header-profile d-flex gap-2">
-                        <div class="blank-circle">
-                        </div>
-                        <h3>
-                            John doe
-                        </h3>
-                    </div>
-                </div>
-            </div>
+            <x-header>
+                <x-slot:heading>
+                    Welcome!
+                </x-slot:heading>
+            </x-header>
 
             <div class="row mt-5 mx-2">
-                <div class="col-sm-4">
-                    <div class="card shadow-sm card-small">
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-semibold">Lorem</h5>
+                <div class="col-sm-8">
+                    <div class="d-flex justify-content-between gap-4 mb-5">
+                        <div class="card w-100 shadow-sm card-small">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-semibold">Lorem</h5>
+                            </div>
+                        </div>
+                        <div class="card w-100 shadow-sm card-small">
+                            <div class="card-body">
+                                <h5 class="card-title text-center fw-semibold">Lorem</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card shadow-sm card-small">
-                        <div class="card-body">
-                            <h5 class="card-title text-center fw-semibold">Lorem</h5>
+                    <div>
+                        <h2>Dorem ipsum</h2>
+                        <div>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Ipsum</th>
+                                        <th scope="col">Dorem</th>
+                                        <th scope="col">Stock</th>
+                                        <th scope="col">Sales</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Ipsum</td>
+                                        <td>Dorem</td>
+                                        <td>Stock</td>
+                                        <td>Sales</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ipsum</td>
+                                        <td>Dorem</td>
+                                        <td>Stock</td>
+                                        <td>Sales</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ipsum</td>
+                                        <td>Dorem</td>
+                                        <td>Stock</td>
+                                        <td>Sales</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ipsum</td>
+                                        <td>Dorem</td>
+                                        <td>Stock</td>
+                                        <td>Sales</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
@@ -128,52 +96,9 @@
                 </div>
 
             </div>
-
-            <div>
-                <h2>Dorem ipsum</h2>
-                <div>
-                    <table class="table table-striped">
-                        <thead>
-                            <tr>
-                                <th scope="col">Ipsum</th>
-                                <th scope="col">Dorem</th>
-                                <th scope="col">Stock</th>
-                                <th scope="col">Sales</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Ipsum</td>
-                                <td>Dorem</td>
-                                <td>Stock</td>
-                                <td>Sales</td>
-                            </tr>
-                            <tr>
-                                <td>Ipsum</td>
-                                <td>Dorem</td>
-                                <td>Stock</td>
-                                <td>Sales</td>
-                            </tr>
-                            <tr>
-                                <td>Ipsum</td>
-                                <td>Dorem</td>
-                                <td>Stock</td>
-                                <td>Sales</td>
-                            </tr>
-                            <tr>
-                                <td>Ipsum</td>
-                                <td>Dorem</td>
-                                <td>Stock</td>
-                                <td>Sales</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
         </div>
     </div>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ asset('js/script.js') }}"></script>
 </body>
 
