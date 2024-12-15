@@ -32,8 +32,6 @@ body {
     width: 100%;
     overflow: hidden;
     transition: all 0.35s ease-in-out;
-    background-color: #E5E4E2;
-    opacity: 0.8;
 }
 
 
@@ -112,10 +110,6 @@ a.sidebar-link:hover {
 
 .sidebar-item {
     position: relative;
-}
-
-.sidebar-footer {
-    margin-bottom: 100px;
 }
 
 .box {

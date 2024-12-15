@@ -9,7 +9,7 @@
     </div>
     <ul class="sidebar-nav">
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/dashboard" class="sidebar-link">
                 <i class="bi bi-grid"></i>
                 <span>Dashboard</span>
             </a>
@@ -21,7 +21,7 @@
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/staff" class="sidebar-link">
                 <i class="bi bi-people-fill"></i>
                 <span>Staff</span>
             </a>
@@ -33,7 +33,7 @@
             </a>
         </li>
         <li class="sidebar-item">
-            <a href="#" class="sidebar-link">
+            <a href="/services" class="sidebar-link">
                 <i class="bi bi-bounding-box"></i>
                 <span>Services</span>
             </a>
@@ -44,12 +44,11 @@
                 <span>Transactions</span>
             </a>
         </li>
+        <li class="sidebar-item" style="margin-top: 90px">
+            <a href="#" class="sidebar-link">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Signout</span>
+            </a>
+        </li>
     </ul>
-
-    <div class="sidebar-footer">
-        <a href="#" class="sidebar-link">
-            <i class="bi bi-box-arrow-right"></i>
-            <span>Signout</span>
-        </a>
-    </div>
 </aside>
