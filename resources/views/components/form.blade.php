@@ -3,6 +3,7 @@
 <div class="signup my-4">
 
     <form class="stretch">
+        @csrf
 
         <h1 class="header mb-4">{{ $heading }}</h1>
 
